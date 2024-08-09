@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr:wght@200;300;400;500;600;700&family=Poppins:wght@100;300;400&family=Prompt:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(109,9,126,1) 1%, rgba(218,19,106,1) 49%, rgba(0,224,255,1) 92%);
+}
+
+.list-contianer{
+    max-width: 800px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: rgb(249, 249, 249);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+.text-head {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 5px 5px 10px #4d4d4d67;
+}
+#list-form{
+    width: 100%;
+    margin: 0 auto;
+   
+
+}
+#list-input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.503);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#list-input:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: none;
+}
+.add-btn{
+    width: 19%;
+    height: 45px;
+    font-size: 1rem;
+    background-color: rgba(216, 63, 247, 0.921);
+    border: none;
+    cursor: pointer;
+    color: rgb(237, 237, 237);
+    border-radius: 0.2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.add-btn:hover{
+    background-color: rgba(236, 143, 254, 0.921);
+}
+
+.list-conten{
+    width: 100%;
+    margin: 0 auto; 
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list-conten li{
+    width: 100%;
+    border-radius: 0.2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.513);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+/* .list-conten li:hover{
+    box-shadow: rgba(221, 221, 221, 0.614) 0px 0px 5px, rgba(221, 221, 221, 0.638) 0px 0px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+.checklist{
+   width: 20px;
+   height: 20px;
+   background-color: #ffffff;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.checklist:hover{
+    background-color: rgb(12, 146, 255);
+}
+.text-list{
+    width: 70%;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+.delet-btn{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(219, 218, 218);
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.delet-btn:hover{
+    background-color: rgb(240, 24, 99); 
+    color: #e6e6e6;
+}
+
+.compleet{
+    background-color: rgb(12, 146, 255);
+}
+.line-text{
+    text-decoration: line-through;
+    color: #9b9b9b;
+}
